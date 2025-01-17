@@ -1,0 +1,29 @@
+# Visual Studio файлы
+.vs/
+x64/
+ip-subnet-calculator/x64
+*.vcxproj.user
+*.vcxproj
+*.vcxproj.filters
+*.VC.db
+*.suo
+*.user
+*.ipch
+*.obj
+*.exe
+*.pch
+*.log
+*.tlog
+*.lastbuildstate
+*.sdf
+*.opensdf
+*.cache
+*.ilk
+*.pdb
+*.idb
+*.log
+*.sln
+
+# Системные файлы
+.DS_Store
+Thumbs.db
