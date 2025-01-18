@@ -27,7 +27,7 @@ int main()
     /*
     std::vector<Subnet> subnets = manager.splitSubnet(subnet, 26);
     for (const Subnet& s : subnets) {
-        cout << s.toString() << endl;
+        cout << s.toString() << endl;ч
     }
     cout << manager.areSubnetsOverlapping(subnets[1], subnets[0]);
     */
