@@ -1,8 +1,8 @@
 #ifndef Subnet_H
 #define Subnet_H
 
-#include "IpAddress.h"
-#include "SubnetMask.h"
+#include "..\IpAddress\IpAddress.h"
+#include "..\SubnetMask\SubnetMask.h"
 
 class Subnet {
 private:

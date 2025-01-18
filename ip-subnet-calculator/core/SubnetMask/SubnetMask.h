@@ -1,7 +1,7 @@
 #ifndef SubnetMask_H
 #define SubnetMask_H
 
-#include "NetworkEntity.h"
+#include "..\NetworkEntity\NetworkEntity.h"
 
 class SubnetMask : public NetworkEntity{
 private:

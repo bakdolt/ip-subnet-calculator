@@ -2,7 +2,7 @@
 #define SubnetManager_H
 
 #include <vector>
-#include "Subnet.h"
+#include "..\Subnet\Subnet.h"
 
 class SubnetManager {
 public:
