@@ -1,15 +1,15 @@
 ﻿// ip-subnet-calculator.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
 #include <iostream>
 #include <string>
-#include "IpAddress.h"
-#include "SubnetManager.h"
-#include "Subnet.h"
+#include "..\core\IpAddress\IpAddress.h"
+#include "..\core\Subnet\Subnet.h"
+#include "..\core\SubnetManager\SubnetManager.h"
 
 using namespace std;
 
 int main()
 {
-    /*
+    
     string address = "192.168.1.1";
     IpAddress ipAddress1(address);
 
@@ -20,17 +20,17 @@ int main()
 
     Subnet subnet(network, mask);
     cout << subnet.toString() << endl;
-    */
+    
 
     SubnetManager manager;
     
-    /*
+    
     std::vector<Subnet> subnets = manager.splitSubnet(subnet, 26);
     for (const Subnet& s : subnets) {
-        cout << s.toString() << endl;ч
+        cout << s.toString() << endl;
     }
     cout << manager.areSubnetsOverlapping(subnets[1], subnets[0]);
-    */
+    
 
     // Две соседние подсети с разным размером
     Subnet subnet1(IpAddress("192.168.0.0"), SubnetMask("255.255.255.128")); // /25

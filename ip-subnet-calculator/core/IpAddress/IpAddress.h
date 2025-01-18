@@ -1,8 +1,8 @@
 #ifndef IpAddress_H
 #define IpAddress_H
 
-#include "SubnetMask.h"
-#include "NetworkEntity.h"
+#include "..\SubnetMask\SubnetMask.h"
+#include "..\NetworkEntity\NetworkEntity.h"
 
 class IpAddress : public NetworkEntity {
 private:

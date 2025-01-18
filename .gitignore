@@ -2,7 +2,7 @@
 .vs/
 x64/
 ip-subnet-calculator/x64
-*.vcxproj.user
+*.vcxprojgit.user
 *.vcxproj
 *.vcxproj.filters
 *.VC.db
